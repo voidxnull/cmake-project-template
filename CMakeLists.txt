@@ -10,7 +10,7 @@ set(HEADERS_PATH ${CMAKE_SOURCE_DIR}/include)
 include_directories(include)
 
 ## A list of source files
-set(SOURCE_FILES )
+set(SOURCE_FILES main.cpp)
 
 ## A list of header files here
 set(HEADER_FILES )
