@@ -15,7 +15,9 @@ set(SOURCE_FILES )
 ## A list of header files here
 set(HEADER_FILES )
 
-add_subdirectory(libs/yaml-cpp-0.5.1)
+## Add a subdirectory
+#add_subdirectory(libs/yaml-cpp-0.5.1)
+
 add_executable(${PROJECT_NAME} ${SOURCE_FILES} ${HEADER_FILES})
 
 ## Include find-pkg module 
